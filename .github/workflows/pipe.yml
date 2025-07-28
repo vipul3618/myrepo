@@ -20,7 +20,7 @@ jobs:
 
       - name: SonarQube Scan
         run: |
-          ./gradlew sonarqube \
+          ./gradle sonarqube \
           -Dsonar.projectKey=Firstmini \
           -Dsonar.host.url=http://192.168.80.156:9000 \
           -Dsonar.login=sqp_8ca6ccbfa2e019aa4c702a20c695a0954406e0ce
